@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C22E0AC51A0ACEEC00A50FDA /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E0AC41A0ACEEC00A50FDA /* AddItemViewController.swift */; };
 		C27716DD1A0ABA4400267E28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27716DC1A0ABA4400267E28 /* AppDelegate.swift */; };
-		C27716DF1A0ABA4400267E28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27716DE1A0ABA4400267E28 /* ViewController.swift */; };
+		C27716DF1A0ABA4400267E28 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27716DE1A0ABA4400267E28 /* ChecklistViewController.swift */; };
 		C27716E21A0ABA4400267E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27716E01A0ABA4400267E28 /* Main.storyboard */; };
 		C27716E41A0ABA4400267E28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27716E31A0ABA4400267E28 /* Images.xcassets */; };
 		C27716E71A0ABA4400267E28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C27716E51A0ABA4400267E28 /* LaunchScreen.xib */; };
 		C27716F31A0ABA4400267E28 /* SWIFT_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27716F21A0ABA4400267E28 /* SWIFT_2Tests.swift */; };
+		C27716FD1A0AC0AF00267E28 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27716FC1A0AC0AF00267E28 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C22E0AC41A0ACEEC00A50FDA /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		C27716D71A0ABA4400267E28 /* SWIFT 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SWIFT 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27716DB1A0ABA4400267E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C27716DC1A0ABA4400267E28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C27716DE1A0ABA4400267E28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C27716DE1A0ABA4400267E28 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		C27716E11A0ABA4400267E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C27716E31A0ABA4400267E28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C27716E61A0ABA4400267E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C27716EC1A0ABA4400267E28 /* SWIFT 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SWIFT 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27716F11A0ABA4400267E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C27716F21A0ABA4400267E28 /* SWIFT_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIFT_2Tests.swift; sourceTree = "<group>"; };
+		C27716FC1A0AC0AF00267E28 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				C27716DC1A0ABA4400267E28 /* AppDelegate.swift */,
-				C27716DE1A0ABA4400267E28 /* ViewController.swift */,
+				C27716DE1A0ABA4400267E28 /* ChecklistViewController.swift */,
+				C22E0AC41A0ACEEC00A50FDA /* AddItemViewController.swift */,
+				C27716FC1A0AC0AF00267E28 /* Item.swift */,
 				C27716E01A0ABA4400267E28 /* Main.storyboard */,
 				C27716E31A0ABA4400267E28 /* Images.xcassets */,
 				C27716E51A0ABA4400267E28 /* LaunchScreen.xib */,
@@ -161,6 +167,7 @@
 				TargetAttributes = {
 					C27716D61A0ABA4400267E28 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 4L9TT33S47;
 					};
 					C27716EB1A0ABA4400267E28 = {
 						CreatedOnToolsVersion = 6.1;
@@ -212,7 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C27716DF1A0ABA4400267E28 /* ViewController.swift in Sources */,
+				C27716DF1A0ABA4400267E28 /* ChecklistViewController.swift in Sources */,
+				C22E0AC51A0ACEEC00A50FDA /* AddItemViewController.swift in Sources */,
+				C27716FD1A0AC0AF00267E28 /* Item.swift in Sources */,
 				C27716DD1A0ABA4400267E28 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,9 +347,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "SWIFT 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -348,9 +359,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "SWIFT 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -407,6 +420,7 @@
 				C27716F81A0ABA4400267E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C27716F91A0ABA4400267E28 /* Build configuration list for PBXNativeTarget "SWIFT 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +429,7 @@
 				C27716FB1A0ABA4400267E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
